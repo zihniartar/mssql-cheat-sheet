@@ -75,7 +75,7 @@ Verwenden Sie das oben angegebene Skript oder die Befehle REORGANIZE und REBUILD
 Planen Sie den Job (z. B. einmal pro Woche).
 
 
-# Kompatibilitäts-Level einer DB über eine Abfrage aneigen und ändern
+# Kompatibilitäts-Level einer DB über eine Abfrage anzeigen und ändern
 
 ### Anzeigen:
 ```sql
