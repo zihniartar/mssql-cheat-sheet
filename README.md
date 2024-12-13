@@ -75,3 +75,27 @@ Verwenden Sie das oben angegebene Skript oder die Befehle REORGANIZE und REBUILD
 Planen Sie den Job (z. B. einmal pro Woche).
 
 
+# Kompatibilitäts-Level einer DB über eine Abfrage aneigen und ändern
+
+### Anzeigen:
+```sql
+SELECT name, compatibility_level 
+FROM sys.databases 
+WHERE name = 'datenbankname';
+```
+
+### Ändern:
+```sql
+ALTER DATABASE datenbankname
+SET COMPATIBILITY_LEVEL = 130;
+```
+
+Level 130 entspricht SQL Server 2016. Hier sind die Levels für verschiedene SQL Server-Versionen:
+
+150: SQL Server 2019
+140: SQL Server 2017
+130: SQL Server 2016
+120: SQL Server 2014
+110: SQL Server 2012
+
+
