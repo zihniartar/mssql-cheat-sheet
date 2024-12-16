@@ -86,7 +86,7 @@ WHERE name = 'datenbankname';
 
 ### Ändern:
 ```sql
-ALTER DATABASE datenbankname
+ALTER DATABASE [datenbankname]
 SET COMPATIBILITY_LEVEL = 130;
 ```
 
