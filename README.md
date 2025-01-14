@@ -98,4 +98,10 @@ Level 130 entspricht SQL Server 2016. Hier sind die Levels für verschiedene SQL
 120: SQL Server 2014
 110: SQL Server 2012
 
+# Eigenschaft einer Spalte in Microsoft SQL Server von NOT NULL auf NULL ändern
+
+### Syntax für die Tabele Setting und für die Spalte Value
+```sql
+ALTER TABLE Setting ALTER COLUMN Value NVARCHAR(MAX) NULL;
+```
 
