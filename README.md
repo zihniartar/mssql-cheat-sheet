@@ -92,11 +92,19 @@ SET COMPATIBILITY_LEVEL = 130;
 
 Level 130 entspricht SQL Server 2016. Hier sind die Levels für verschiedene SQL Server-Versionen:
 
-150: SQL Server 2019
-140: SQL Server 2017
-130: SQL Server 2016
-120: SQL Server 2014
-110: SQL Server 2012
+## Kompatibilitätslevel von SQL Server-Versionen
+
+| Kompatibilitätslevel | SQL Server-Version |
+|----------------------|--------------------|
+| 160                  | SQL Server 2022    |
+| 150                  | SQL Server 2019    |
+| 140                  | SQL Server 2017    |
+| 130                  | SQL Server 2016    |
+| 120                  | SQL Server 2014    |
+| 110                  | SQL Server 2012    |
+| 100                  | SQL Server 2008    |
+| 90                   | SQL Server 2005    |
+
 
 # Eigenschaft einer Spalte in Microsoft SQL Server von NOT NULL auf NULL ändern
 
